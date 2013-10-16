@@ -1,0 +1,167 @@
+/* Global */
+body 
+{
+
+	background-color:#bbb;
+	background-image:url('paper_back.jpg');
+	background-repeat:repeat;
+	margin-left:auto;
+	margin-right:auto;
+	width:850px;
+	font-family:Garamond;
+	font-size: 150%;
+	
+
+}
+
+h1, h2
+{
+	font-family:Garamond;
+}
+
+
+a.friendlink
+{
+	color:#0066FF;
+	text-decoration:none;
+}
+
+
+a 
+{
+	color:#067A00;
+	text-decoration:none; 
+}
+
+a:hover 
+{
+	border-radius: 5px;
+/*	margin-left:-3px;
+	margin-right:3px; it's disturbing when the link is crossed line. */
+	color: #000;
+	background: #fff;
+    box-shadow: 5px 5px 15px #000;
+    text-decoration:none; 
+}
+
+blockquote 
+{ 
+	border:1px solid #DDD;
+	background-color:#f2f2f2;
+	color:#333;
+	padding:12px 5px;
+}
+
+code 
+{ 
+	border:1px solid #DDD;
+	background-color:#F2F2F2;
+	padding:12px 5px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:14px;
+	margin:0 0 0 8.5%;
+	letter-spacing:+1px;
+}
+
+/* Main layout */
+div#container 
+{
+	border-radius: 30px;
+	border-style:solid;
+	border-width:3px;
+	border-color:#ccc;
+	padding:15px;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fff;
+	-webkit-box-shadow: 10px 10px 25px black;
+    -moz-box-shadow: 10px 10px 25px black;
+    box-shadow: 10px 10px 25px black;
+}
+
+div#bookmark_shadow
+{
+	position: absolute;
+	width:60px;
+	height:100px;
+	margin-top:-140px;
+	margin-left:680px;
+	-webkit-box-shadow: 5px 5px 25px black;
+    -moz-box-shadow: 5px 5px 25px black;
+    box-shadow: 5px 5px 25px black;
+}
+
+div#bookmark 
+{
+	position: absolute;
+	width:60px;
+	height:120px;
+	margin-top:-140px;
+	margin-left:680px;
+	background-color:#060;
+}
+
+div#bookmark_arrow 
+{
+	position:absolute;
+	margin-top:85px;
+	margin-left:7px;
+	width:50px;
+	height:50px;
+	background:white;
+	left:-4px;
+	top: 13px;
+	transform: rotateZ(45deg);
+	-o-transform: rotateZ(45deg);
+	-webkit-transform: rotateZ(45deg);
+	-moz-transform: rotateZ(45deg);
+}
+
+.avatar
+{
+position: absolute;
+}
+
+.avatar span
+{
+	display: none;
+}
+
+.avatar:hover span
+{
+	display:block;
+	position:absolute;
+	top: 10px;
+	left:140px;
+	width:320px;
+	background-color:black;
+	padding: 3px;
+	color:black;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 25px black;
+    -moz-box-shadow: 10px 10px 25px black;
+    box-shadow: 10px 10px 25px black;
+}
+
+.cor
+{
+	position:absolute;
+	width:8px;
+	height:8px;
+	background:black;
+	margin-left:auto;
+	margin-right:auto;
+	left:-4px;
+	top: 13px;
+	transform: rotateZ(45deg);
+	-o-transform: rotateZ(45deg);
+	-webkit-transform: rotateZ(45deg);
+	-moz-transform: rotateZ(45deg);
+}
+
+div#timestamp
+{
+	margin-top: 25px;
+	text-align: center;
+}
